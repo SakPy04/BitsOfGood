@@ -1,0 +1,51 @@
+*,*::before,*::after{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+body{ 
+  background-color: royalblue;
+}
+.card{
+  background-color: peachpuff;
+  margin: auto;
+  padding: 3%;
+  border: 1px solid black ;
+  border-radius: 5px;
+  box-shadow: 2px 2px;
+  align-content: center;
+}
+.card-header{
+  font: 4rem;
+  margin-bottom: .5rem;
+  font-weight: bolder;
+}
+
+.card-footer{
+  margin-top: 1.5rem;
+}
+
+.pic{
+  height: 300px;
+  width: 300px;
+  border-color: white;
+  margin-left: 35%;
+  border-radius: 50%;
+  box-shadow: .5px .5px white;
+  margin-bottom: 5%;
+}
+button{
+  margin-right: 10px;
+  background: gray;
+  color: black;
+  font-size: 1rem;
+  padding: .5em .75em;
+  cursor: pointer;
+}
+
+.btn:hover{
+  opacity: 70% ;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
